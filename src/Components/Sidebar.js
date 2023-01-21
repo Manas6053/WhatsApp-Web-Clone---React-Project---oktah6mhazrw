@@ -88,7 +88,7 @@ function Sidebar({ currentUser, signOut }) {
 
       <div className="sidebar-chat-list">
         {searchItem.length > 0
-          ? searchItem|recentchat
+          ? searchItem 
           : friendList.map((friend) => (
               <Userprofile
                 name={friend.data().fullname}
